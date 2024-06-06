@@ -1,6 +1,5 @@
 # Background Color Picker 🎨
-
-![Screenshot 2024-05-04 131104](https://github.com/matwal42083/react_router/assets/115494989/7f7395b2-baf6-40c5-83cf-d2426b3df77d)
+![Screenshot 2024-05-04 131104](https://github.com/matwal42083/react_router/assets/115494989/353910b3-8bec-4e81-b0c8-3ec2e10e23b6)
 
 ## What is it?
 Background color picker that changes the color Red to blue, blue to Red. There is also a Home where you started where red and blue are the background colors.
