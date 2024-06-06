@@ -1,4 +1,4 @@
-# Background Color Picker
+# Background Color Picker 🎨
 
 ![Screenshot 2024-05-04 131104](https://github.com/matwal42083/react_router/assets/115494989/7f7395b2-baf6-40c5-83cf-d2426b3df77d)
 
@@ -17,4 +17,4 @@ great benefits that React Router gives you in your project.
  - CSS
 
 >[!NOTE]
->  This is just an Example for React Router 
+>  This is just an example of a React Router 
