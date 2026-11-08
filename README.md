@@ -1,19 +1,56 @@
-# Background Color Picker 🎨
-![Screenshot 2024-05-04 131104](https://github.com/matwal42083/react_router/assets/115494989/353910b3-8bec-4e81-b0c8-3ec2e10e23b6)
+# Background Color Picker
 
-## What is it?
-Background color picker that changes the color Red to blue, blue to Red. There is also a Home where you started where red and blue are the background colors.
-I used a React router to change the background color, but what's happening is that the page is just turning to a different file document.
+A small React Router learning project: use the navigation links to move between three pages, each with a different background color. The Home page blends red and blue; the other pages show blue and red.
 
-## What the purpose:
-The purpose of this is to demonstrate how React Router and how it works.
-This is good React.js practice and development knowledge. You can see all the 
-great benefits that React Router gives you in your project.
+![Screenshot of the Background Color Picker](https://github.com/matwal42083/react_router/assets/115494989/353910b3-8bec-4e81-b0c8-3ec2e10e23b6)
 
-## What is my Stack?
- - React + Vite
- - JSX JavaScript
- - CSS
+## Features
 
->[!NOTE]
->  This is just an example of a React Router 
+- Client-side navigation between Home, Blue, and Red using React Router.
+- A distinct background style for each route.
+- A minimal example of defining routes and rendering page components.
+
+## Run locally
+
+You’ll need [Node.js](https://nodejs.org/) and npm.
+
+```bash
+git clone https://github.com/matwal42083/react_router.git
+cd react_router
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite in your browser.
+
+## Available scripts
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the Vite development server. |
+| `npm run build` | Create a production build in `dist/`. |
+| `npm run preview` | Preview the production build locally. |
+| `npm run lint` | Run ESLint. |
+
+## Tech stack
+
+- React
+- React Router
+- Vite
+- JavaScript (JSX) and CSS
+
+## Project structure
+
+```text
+src/
+├── Components/
+│   ├── Blue.jsx   # Blue route
+│   ├── Home.jsx   # Home route
+│   └── Red.jsx    # Red route
+├── App.jsx        # Navigation and route definitions
+├── App.css
+├── index.css
+└── main.jsx       # React entry point and BrowserRouter
+```
+
+This is a small educational example for practicing React Router and page navigation.
